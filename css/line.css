@@ -1,0 +1,22 @@
+.container {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 100%; 
+	width:  100%; 
+}
+
+
+.line {
+	flex: 1;
+	margin-left: 4.6%;
+	margin-right: 4.6%;
+
+	border-radius: 2vh;
+ 	background: linear-gradient(15deg, rgb(255 102 71), rgb(71, 255, 197));
+ 	
+ 	height: 10%;
+ 	transition: height 0.5s;
+ 	transition-timing-function: ease;
+}
